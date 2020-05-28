@@ -1,0 +1,20 @@
+{
+    "name": "bigboca/laravel-css-selector",
+    "description": "Add CSS selectors to Laravel HTTP tests",
+    "require": {
+        "symfony/css-selector": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "Alistair Wells",
+            "email": "ali@bigboca.co.uk"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BigBoca\\LaravelCssSelector\\LaravelCssSelectorServiceProvider"
+            ]
+        }
+    }
+}
